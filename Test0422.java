@@ -7,3 +7,14 @@
 		new C().avgFunc(x, y);
 	}
 }
+
+
+class B {
+	void maxFunc(int x,int y) {
+		if(x>y) {
+			System.out.println(x);
+		} else {
+			System.out.println(y);
+		}
+	}
+}
